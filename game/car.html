@@ -2,12 +2,12 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Online Racing Game</title>
+  <title>cargame</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1"><link rel="stylesheet" href="/css/car.css">
 
 </head>
 <body>
-<div id="full">
+
 <!-- partial:index.partial.html -->
 <script data-ad-client="ca-pub-8222390470642566" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -35,31 +35,10 @@
 		<div class="tools" id="help" ontouchstart="this.onclick()" onclick="window.open('help')">?</div>
 	</div>
 </div>
-</div>
+
 
 <!-- partial -->
-<button id="button" onclick="openFullscreen();">open openFullscreen</button>
-<script>
-	var elem = document.getElementById("full");
 
-function openFullscreen() {
-
-  if (elem.requestFullscreen) {
-
-    elem.requestFullscreen();
-
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
-
-    elem.webkitRequestFullscreen();
-
-  } else if (elem.msRequestFullscreen) { /* IE11 */
-
-    elem.msRequestFullscreen();
-
-  }
-
-}
-</script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/86/three.min.js'></script>
 <script src='https://www.gstatic.com/firebasejs/4.6.2/firebase.js'></script>
 <script src='https://jchabin.github.io/VR-ThreeJS-Test/ThreeJS/DeviceOrientationControls.js'></script>
